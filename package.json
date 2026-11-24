@@ -1,0 +1,22 @@
+{
+  "name": "amr-ibn-al-jamuh-short",
+  "version": "1.0.0",
+  "description": "Vertical 9:16 animated short film about Amr ibn al-Jamuh at the Battle of Uhud, built with Remotion in Lemo-Opuscar Gilded Illumination style.",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render src/index.ts AmrIbnAlJamuhShort out/video-raw.mp4",
+    "still": "remotion still src/index.ts AmrIbnAlJamuhShort",
+    "build": "sh build.sh"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.240",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.240"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.7.2"
+  }
+}

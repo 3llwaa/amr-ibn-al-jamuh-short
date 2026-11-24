@@ -1,0 +1,7 @@
+# Credits & Third-Party Licences
+
+- **Directing & Visual Style Framework:** Lemo-Opuscar (`gilded-illumination` style specification & rendering grammar) — MIT License (`https://github.com/lemomo-ai/lemo-opuscar`). All scene art, animation, story choreography, and audio score in this project are original code written for this film.
+- **Video Rendering Engine:** Remotion (`remotion`, `@remotion/cli`) — Remotion License (`https://www.remotion.dev`).
+- **Arabic Typography:** Amiri & Amiri Quran (`fonts-hosny-amiri`, Khaled Hosny) — SIL Open Font License 1.1 (OFL-1.1).
+- **Voice Synthesis:** Microsoft Edge Neural TTS (`ar-EG-ShakirNeural`) accessed via `edge-tts` (GPL-3.0 client); generated audio subject to Microsoft online speech service terms.
+- **Music & Foley:** 100% original procedural synthesis & Karplus-Strong physical modeling generated in Python (`scripts/compose_audio.py`) with NumPy & SciPy; no copyrighted loops or stock audio used.
